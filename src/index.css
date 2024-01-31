@@ -1,0 +1,37 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,300;0,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width:765px) {
+    .hidden-on-phone {
+      display: none;
+    }
+  }
+
+  .shadowcss{
+    box-shadow: 5px 5px rgba(0,0,0);
+  }
+  
+
+  .bigshadow{
+    box-shadow: 10px 10px rgba(0,0,0);
+  }
+
+  p{margin: 0;}
+
+  .stroked-text {
+    color: transparent;
+    -webkit-text-stroke: 0.5px white; /* Width and color of the stroke for WebKit browsers */
+    text-stroke: 0.5px white; /* Width and color of the stroke for other browsers */
+    display: inline-block; /* Ensure that the element only takes the necessary width */
+  }
+
+ .textShadow{
+  text-shadow:4px 0px 0px black;
+ }
+  
