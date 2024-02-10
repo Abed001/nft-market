@@ -23,6 +23,9 @@ export default {
       whitecolor: '#ADABAB',
       white: '#fff',
       pink: '#f097b2',
+      blue:'#40A2E3',
+      green:'#74E291',
+      gold:'#F3C12C',
 
     },
     extend: {
