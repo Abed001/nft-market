@@ -120,7 +120,7 @@ export default function SecondSection() {
             })
             t1.from("#main", {
                 opacity: 0,
-                x: 500,
+                x:-500,
                 duration: 1,
                 delay: 0.3,
                 stagger: 0.1,
@@ -137,9 +137,9 @@ export default function SecondSection() {
 
 
     return (
-        <main ref={comp} className='relative bg-pink ' >
+        <main ref={comp} className='relative bg-pink overflow-hidden ' >
 
-            <div id='main' className='mt-10 lg:mt-20 flex justify-between items-center '>
+            <div id='main' className=' mt-10 lg:mt-20 flex justify-between items-center '>
                 <p className='pl-10 text-[1.8rem] lg:text-[5rem]  uppercase text-black font-extrabold tracking-widest   '>our best nft</p>
                 <div className='hidden-on-phone'><ConflictingStarsBlack /></div>
                 <div className='sm:block lg:hidden md:hidden'><ConflictingStarsBlackSmall /></div>

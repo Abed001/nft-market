@@ -20,35 +20,6 @@ export default function SectionFour() {
   
   const comp = useRef(null)
 
-
-  /*useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      const t1 = gsap.timeline({
-        scrollTrigger: {
-          trigger: "#Card",
-          pin: true, // pin the trigger element while active
-          start: "-20px center", // when the top of the trigger hits the top of the viewport
-          end: "top center", // end after scrolling 500px beyond the start
-          scrub:5,
-        }
-      })
-
-      t1.from("#Card", {
-        rotationZ: 50,
-        duration: 1.5,
-        opacity: 0,
-      })
-     
-        .to("#Card", {
-          duration: 1.5,
-          opacity: 100,
-        })
-
-    }, comp)
-    return () => ctx.revert()
-  }, [])*/
-
-
   const cardImage = [
     {
       url: mon1,
@@ -85,7 +56,7 @@ export default function SectionFour() {
 
 
       <div ref={comp} className='flex flex-col bg-green lg:px-10'>
-        <header className='mt-5 h-[100px] lg:px-10 flex lg:justify-center items-center lg:mt-40 lg:flex-row'>
+        <header className=' mt-5 h-[100px] lg:px-10 flex lg:justify-center items-center lg:mt-40 lg:flex-row'>
           <div  className='hidden-on-phone'> <GroupStars /></div>
           <div className='lg:hidden md:hidden sm:block pr-5'> <SmallGroupStars /></div>
           <div className='flex flex-col lg:pl-10'>
@@ -97,7 +68,7 @@ export default function SectionFour() {
           </div>
         </header>
 
-        <section id="Card" className='mt-10 lg:mt-40 grid grid-cols-1  place-items-center lg:grid-cols-4 gap-y-10 mb-20 '>
+        <section id="Card" className=' mt-10 lg:mt-40 grid grid-cols-1  place-items-center lg:grid-cols-4 gap-y-10 mb-20 '>
           {cardImage.map((images, index) => (
             <Card key={index} Images={cardImage} index={index} />
           ))}

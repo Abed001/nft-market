@@ -12,17 +12,13 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='font-kulimpark h-[100%] w-[100%] flex flex-col'>
+    <div className='font-kulimpark h-[100%] w-[100%] overflow-hidden flex flex-col'>
       <Navbar />
       <FirstSection/>
       <SecondSection/>
       <SectionThree/>
       <SectionFour/>
       <Footer/>
-     {/* <div className=' font-kulimpark bg-black h-[100%] w-[100%] flex flex-col lg:flex-row justify-between items-center'>
-        <div className='bg-purple w-[100%]' >
-        </div>
-  </div>*/}
     </div>
 
   )
