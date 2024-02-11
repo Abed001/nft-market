@@ -2,7 +2,7 @@ import { React } from 'react'
 import { useLayoutEffect, useRef } from "react"
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import gsap from "gsap"
-import first from '../images/nft/first.jpg'
+import first from '../images/nft/first.webp'
 import Svgelipsestart from './svg/Svgelipsestart';
 import SvgAroundImage from './svg/SvgAroundImage';
 import SvgAroundImagebig from './svg/SvgAroundImagebig';
