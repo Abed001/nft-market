@@ -51,15 +51,15 @@ export default function FirstSection() {
                 <div className='w-[1/2] pl-10 flex flex-col justify-center items-center  '>
                     <div id='SvgAroundImage' className=' lg:hidden md:hidden sm:block'> <SvgAroundImage /></div>
                     <div id='SvgAroundImage' className=' hidden-on-phone mt-10 lg:ml-20'> <SvgAroundImagebig /></div>
-                    <img id='SvgAroundImage' className=' lg:hidden md:hidden sm:block absolute w-[250px] h-[1/2] top-[60px] right-[145px] bigshadow lg:top-[60px] lg:left-[80px]' src={first} alt="" />
-                    <img id='SvgAroundImage' className=' lg:w-1/5 hidden-on-phone absolute bigshadow lg:top-[60px] lg:left-[230px] lg:mt-10' src={first} alt="" />
+                    <img id='SvgAroundImage' className=' lg:hidden md:hidden sm:block absolute w-[250px] h-[1/2] top-[60px] right-[110px] bigshadow' src={first} />
+                    <img id='SvgAroundImage' className=' lg:w-1/5 hidden-on-phone absolute bigshadow lg:top-[60px] lg:left-[230px] lg:mt-10' src={first} />
                     <p id='text' className='mr-10 mt-[100px] w-[300px] text-white font-normal lg:text-xl lg:mt-[120px]  lg:w-[80%]'>Find Your Next Rare NFT Treasure At Our Marketplace.</p>
 
                 </div>
 
                 <div className=' w-[1/2] lg:min-w-[300px] h-full mt-[12px] lg:mt-[-10px]  lg:pr-5'>
                     <div id="Cupanime" className='lg:ml-[240px] lg:mb-5'><Svgelipsestart /></div>
-                    <div className='mt-2'><img id='Cupanime' className='mt-2 absolute top-[400px] right-[125px] w-[230px] lg:top-[34px] lg:right-[160px]' src={cupcartoon} alt="" />
+                    <div className='mt-2'><img id='Cupanime' className='mt-2 absolute top-[400px] right-[95px] w-[230px] lg:top-[34px] lg:right-[160px]' src={cupcartoon} alt="" />
                     </div>
                     <div className=' flex flex-row justify-end items-center lg:h-[50px]'><p id='letteranime' className='text-[3rem] h-[100px] uppercase text-white font-bold tracking-wider lg:mr-10 textShadow '>c<img id='letteranime' className='w-10 h-10 inline p-0 mb-2' src={gorilla} alt="" />llect</p>
                     </div>

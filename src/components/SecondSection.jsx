@@ -156,7 +156,7 @@ export default function SecondSection() {
                         <span onClick={nextSlide} className=' opacity-50 hover:opacity-100 transition-all duration-100'><RightArrow /></span>
                     </div>
                     {/*for mobile view i used absolute postion*/}
-                    <div id='main'  className='sm:block lg:hidden md:hidden absolute top-[500px] mt-5 w-[200px] flex justify-between'>
+                    <div id='main'  className='sm:block lg:hidden md:hidden absolute top-[600px] mt-5 w-[200px] flex justify-between'>
                         <span onClick={prevSlide} className=' opacity-50 hover:opacity-100 transition-all duration-100'><LeftArrow /></span>
                         <span onClick={nextSlide} className=' opacity-50 hover:opacity-100 transition-all duration-100'><RightArrow /></span>
                     </div>
@@ -177,7 +177,7 @@ export default function SecondSection() {
 
                         <div
                             className='z-10 bg-blue w-full h-1/2 lg:h-full  bg-center bg-contain bg-no-repeat duration-500 bigshadow'>
-                            <div><img id='imganime' className='z-20 lg:mt-0 mt-5 box absolute w-[300px] top-20 right-[95px] lg:top-[230px] lg:right-[260px] lg:w-[400px] ' src={slides[currentIndex].url} />
+                            <div><img id='imganime' className='z-20 lg:mt-0 mt-5 box absolute w-[300px] top-[140px] right-[60px] lg:top-[230px] lg:right-[260px] lg:w-[400px] ' src={slides[currentIndex].url} />
                             </div>
 
                         </div>
